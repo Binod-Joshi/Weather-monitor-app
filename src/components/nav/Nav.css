@@ -1,0 +1,28 @@
+.nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    gap:3px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+button{
+    padding-left: 2px;
+    width: 132px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    background-color: transparent;
+}
+button:hover{
+    color: rgb(7, 81, 178);
+}
+
+@media screen and (max-width:1024px) {
+.nav{
+    padding-left: 0vh;
+    padding-right: 0vh;
+}
+}
