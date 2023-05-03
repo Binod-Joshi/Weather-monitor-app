@@ -14,7 +14,7 @@ export const Context = createContext();
 
     const searchHandler = (e,comingInput) =>{
         e.preventDefault();
-        setLocation(comingInput);
+        setLocation(comingInput.trim());
     }
     const clickHandler = (title) => {
         setLocation(title);
